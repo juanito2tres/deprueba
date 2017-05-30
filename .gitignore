@@ -1,0 +1,11 @@
+################################
+#ignorar
+################################
+
+*.suo
+*.user
+/.vs
+/PentagonoCompras/bin
+/PentagonoCompras/obj
+/Compras/Debug
+/Compras/Release
