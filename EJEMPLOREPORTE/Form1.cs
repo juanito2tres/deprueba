@@ -46,8 +46,15 @@ namespace EJEMPLOREPORTE
 
         private void button4_Click(object sender, EventArgs e)
         {
-            mostrarplanilla m = new mostrarplanilla();
-            m.ShowDialog();
+            //mostrarplanilla m = new mostrarplanilla();
+            //m.ShowDialog();
+
+            puma p = new puma();
+            this.Hide();
+            p.ShowDialog();
+            
+           
+
         }
 
         private void button5_Click(object sender, EventArgs e)
