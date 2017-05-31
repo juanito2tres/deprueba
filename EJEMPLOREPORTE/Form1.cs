@@ -90,5 +90,12 @@ namespace EJEMPLOREPORTE
                 newFile.Close();
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form3 p = new Form3();
+            this.Hide();
+            p.ShowDialog();
+        }
     }
 }
